@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Around The World in a Month</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container">
+        <div class="logo">
+          <p>News App</p>
+        </div>
+        <div class="search_ops">
+          <select class="inp" id="country">
+            <option value="">Select Country</option>
+            <option value="In">India</option>
+            <option value="uk">UK</option>
+            <option value="china">china</option>
+            <option value="us">USA</option>
+          </select>
+          <select class="inp" id="category">
+            <option value="">Select Category</option>
+            <option value="Politics">Politics</option>
+            <option value="Business">Business</option>
+            <option value="Technology">Technology</option>
+            <option value="Sports">Sports</option>
+          </select>
+          <button class="btn" onclick="search()">Fetch News</button>
+        </div>
+      </div>
+    </header>
+    <!-- https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=5eb79d24968e4dd3acd031483f9b2a12 -->
+
+    <section class="news" id="news">
+      <!-- <div class="news_card">
+        <div class="news_img">
+          <img src="./avatar.jpg" />
+        </div>
+        <div class="news_details">
+          <h1 class="title">Hot woman is chasing me</h1>
+          <p class="author">-Jake Sully</p>
+          <p class="content">
+            I started in the industry about 10 years ago when I was about 26
+            years old. I began by doing live spanking sessions at a dominance
+            house here in NY. After doing sessions for about 5 years. I was
+            asked by numerous clients for videotaped copies of the sessions.
+            This is how I began thinking about making videos.
+          </p>
+          <button class="btn">Read Full Article</button>
+        </div>
+      </div> -->
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
